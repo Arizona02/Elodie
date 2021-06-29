@@ -1,0 +1,50 @@
+@font-face
+{
+    font-family: RespondentBlack_PERSONAL_USE_ONLY;
+    src: url(font/respondent/RespondentBlack_PERSONAL_USE_ONLY.otf);
+}
+@font-face{
+    font-family: BebasNeue-Regular;
+    src: url(font/bebas_neue/BebasNeue-Regular.otf),
+        url(font/bebas_neue/BebasNeue-Regular.eot),
+        url(font/bebas_neue/BebasNeue-Regular.ttf),
+        url(font/bebas_neue/BebasNeue-Regular.woff);
+}
+
+
+h1{
+    text-align: center;
+    font-family: RespondentBlack_PERSONAL_USE_ONLY;
+    font-style: bold;
+    font-size: 48px;
+}
+
+.author, .navbar {
+    padding-top: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.author, .nav{
+    font-family: BebasNeue-Regular;
+}
+
+.author {
+    font-size: 35px;
+}
+
+.bg_container {
+    background-color: #f5efe0;
+}
+
+/* class qui suisje */
+
+.picture_author {
+    max-width: 25%;
+}
+
+.resume {
+    text-align: justify;
+}
